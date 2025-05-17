@@ -750,7 +750,7 @@ async def async_setup_entry(
                             DaikinOneEquipmentSensor(
                                 description=SensorEntityDescription(
                                     key="crank_case_heater",
-                                    name="Crrank Case Heater",
+                                    name="Crank Case Heater",
                                     has_entity_name=True,
                                     device_class=SensorDeviceClass.ENUM,
                                 ),
